@@ -39,5 +39,5 @@ public @interface Arg {
 
   String select() default "";
 
-  String resultMap() default "";
+  String resultMap() default "test";
 }
